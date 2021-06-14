@@ -1,0 +1,1 @@
+alert('adding script by external method');
