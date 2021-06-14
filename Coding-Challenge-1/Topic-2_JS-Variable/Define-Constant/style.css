@@ -1,0 +1,18 @@
+body
+{
+    background-color: rgb(169, 120, 175);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1
+{
+    font-size: 2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+    font-weight: bolder;
+    padding-top: 100px;
+}
