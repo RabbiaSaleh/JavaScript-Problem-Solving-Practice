@@ -9,6 +9,8 @@ function two(){
     let a = "rabbia" ;
         console.log(a);
 }
+ //it isn't printed because let isn't a global variable and it can't console in other function.
+
 /*====Now declare a variable using var in a block and
  try reassigning the value to that variable in another block 
  and see if it throws an error or not.
