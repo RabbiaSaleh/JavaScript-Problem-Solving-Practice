@@ -2,10 +2,13 @@
 if student has gained marks more than or 
 equal to 50 then student is pass else student is fail.
 */
-let marks = 60;
-if (marks => 50) {
-    document.write("student is pass");
+var marks;
+marks= prompt(" Enter your marks");
+
+if (marks >= 50) {
+    console.log("student is pass");
 }
-else {
-    document.write("student is fail");
+else 
+{
+    console.log("student is fail");
 }
