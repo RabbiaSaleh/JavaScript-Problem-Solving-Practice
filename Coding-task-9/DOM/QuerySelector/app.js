@@ -1,0 +1,14 @@
+// Use QuerySelector and repeat the same steps as above
+
+
+//reference of first div
+let element = document.querySelector(".div-class");
+console.log(element);
+
+// // class name changed
+let b = document.querySelector(".div-class").className = "Changed-class";
+console.log(b);
+
+// //style attribute
+element.style.color = "red";
+element.style.border = " 3px solid blue";
